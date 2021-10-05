@@ -95,6 +95,8 @@ public class Fase1 extends JPanel implements ActionListener {
 		}else if (ladoEsquerdoA <= ladoDireitoC && ladoDireitoA >= ladoEsquerdoC && ladoCimaA >= ladoBaixoC - 2 
 				&& ladoCimaA <= ladoBaixoC) {
 			System.out.println("TELEPORTANDO");
+			jogador.setX(250);
+			jogador.setY(400);
 		}
 		
 		// COLISAO COM O BAU
